@@ -1,15 +1,9 @@
-I was testing some variable fonts.
+## README
 
-I was inspired to give it a try by reading parts of Flexible typesetting.
-https://abookapart.com/products/flexible-typesetting
+I was testing variable fonts and how to immplement them and made this mini website.
 
-I found the fonts through https://v-fonts.com/
+You can find it at http://johanronsse.be/variable-fonts .
 
-League Mono by @typeler - https://twitter.com/typeler
-Demo website at http://tylerfinck.com/leaguemonovariable/
+I was inspired to give it a try by reading parts of the Flexible typesetting book (https://abookapart.com/products/flexible-typesetting).
 
-Meta Variable
-https://www.monotype.com/fonts/variable-fonts/
-
-Venn
-https://daltonmaag.com/library/venn
+-J.
