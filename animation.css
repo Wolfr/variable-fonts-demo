@@ -1,0 +1,44 @@
+/* Animation demo
+   ========================================================================== */
+
+@font-face {
+  font-family: 'Venn VF';
+  src: url('VennVF_A.ttf');
+  font-display: swap;
+  font-style: normal;
+  font-weight: 100 900;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Venn VF';
+  font-weight: 350;
+  line-height: 1.5;
+  font-size: 1.8rem;
+}
+
+h2 {
+  line-height: 1.25;
+  font-weight: 400;
+  font-size: 10.8rem;
+  margin: 0 0 3.2rem;
+}
+
+h2.animated {
+  animation: changeWeight 1s infinite;
+  animation-direction: alternate;
+}
+
+@keyframes changeWeight {
+  from {
+    font-variation-settings: "wght" 100, "wdth" 100;
+  }
+
+  to {
+    font-variation-settings: "wght" 500, "wdth" 200;
+  }
+}
+

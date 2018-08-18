@@ -1,0 +1,115 @@
+/* Intro
+   ========================================================================== */
+
+@font-face {
+  font-family: 'FF Meta VF';
+  src: url('MetaVariableDemo-Set.woff2') format('woff2');
+  font-display: swap;
+  font-style: normal italic;
+  font-weight: 100 900;
+}
+
+@font-face {
+  font-family: 'League Mono';
+  src: url('LeagueMonoVariable.ttf');
+  font-display: swap;
+  font-style: normal italic;
+  font-weight: 100 900;
+}
+
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'FF Meta VF';
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 1.8rem;
+  color: #333;
+}
+
+pre, code {
+  font-family: 'League Mono';
+}
+
+pre {
+  overflow: scroll;
+}
+
+pre {
+  background: #EEE;
+  padding: 1.8rem;
+  font-size: 1.4rem;
+  margin: 0 0 1.8rem;
+}
+
+em, i {
+  font-style: italic;
+  font-variation-settings: "ital" 1;
+}
+
+section {
+  margin: 4.8rem 0;
+}
+
+h1, h2, h3 {
+  line-height: 1.25;
+  color: #000;
+}
+
+h2 {
+  font-size: 3.2rem;
+  margin: 0 0 3.2rem;
+  font-weight: 700;
+}
+
+h2.special {
+  font-weight: 420;
+  letter-spacing: -.1rem;
+  margin: 3.2rem 0;
+}
+
+@media (min-width: 800px) {
+  h2.special {
+    font-size: 6.4rem;
+    margin: 3.2rem 0;
+    font-weight: 380;
+    letter-spacing: -.2rem;
+  }
+}
+
+h3 {
+  font-size: 2.4rem;
+  margin: 0 0 2.4rem;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 1.8rem;
+  margin: 0 0 1.8rem;
+  font-weight: 550;
+}
+
+p {
+  margin: 0 0 1.8rem;
+}
+
+ul {
+  list-style: disc;
+  padding: 0 0 1.8rem 2.7rem;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(48,194,255);
+  border-bottom: 1px solid rgba(48,194,255,.33);
+}
+
+.button {
+  background: rgb(48,194,255);
+  color: #FFF;
+  border-radius: .3rem;
+  padding: .4rem .8rem;
+}
